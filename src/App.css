@@ -36,3 +36,157 @@
     transform: rotate(360deg);
   }
 }
+
+/* Header Section */
+@font-face {
+  font-family: 'Balloen';
+  src: local('Balloen'), url(../assets/fonts/BaloenFont.ttf) format('woff');
+}
+
+.image_bg {
+  background-image: url('../public/hero_bg.png');
+  width: 100vw;
+  min-height: 600px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: solid 4px black;
+  background-size: contain;
+}
+.hero_img_kudos_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  background-size: contain;
+}
+.hero_img_rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  margin-top: 5%;
+}
+.hero_title {
+  font-family: Balloen;
+  font-size: 4.3em;
+  text-align: center;
+  -webkit-text-stroke: 1.5px black;
+}
+.hero_title_exclamation {
+  color: #5cc9f5;
+}
+
+@media (max-width: 960px) {
+  .hero_title {
+    font-size: 3.2em;
+  }
+}
+@media (max-width: 770px) {
+  .hero_title {
+    font-size: 2.5em;
+  }
+  .hero_img_rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+  }
+}
+
+/* Sql Section */
+
+@font-face {
+  font-family: 'Buzinga';
+  src: local('Buzinga'), url(../assets/fonts/Buzinga-Regular.otf) format('woff');
+}
+
+.sql-section {
+  width: 100vw;
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.sql-section-img-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.image_sql_section {
+  width: auto;
+  height: 350px;
+}
+.sql-section-section-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sql-query-container {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: solid 4px black;
+  background-color: #fcd963;
+  height: 100%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3%;
+}
+
+.sql-query {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.reserved_query_words {
+  font-family: Buzinga;
+  font-weight: bold;
+  font-size: 3em;
+  margin-right: 3%;
+  color: #1d6996;
+  letter-spacing: 4px;
+}
+.normal_query_words {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+@media (max-width: 960px) {
+  .sql-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: none;
+    margin: 0 auto;
+  }
+  .sql-query-container {
+    margin-top: 5%;
+  }
+  .image_sql_section {
+    width: auto;
+    height: 30vh;
+    text-align: center;
+    align-self: center;
+    margin: 2%;
+  }
+  .sql-query-container {
+    margin-right: 0;
+  }
+}

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Card from './Card.jsx'
+import Hero from './Hero.jsx'
+import Sql from './Sql.jsx'
+import Term from './Terminal.jsx'
+import Cake from './cake.png';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header >
+        <Hero />
       </header>
+      <section>
+        {/* <img src={Cake} alt="cake" /> */}
+        <Sql />
+      </section>
+      <section style={{marginTop: '5%'}}>
+        <Term />
+      </section>
     </div>
   );
 }
