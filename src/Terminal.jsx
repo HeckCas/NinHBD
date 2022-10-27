@@ -11,6 +11,7 @@ const Term = (props = {}) => {
     <ul>
       <li>"hola" -{'>'} Te saluda</li>
       <li>"chisme" -{'>'} Te cuenta un chisme</li>
+      <li>"frase" -{'>'} Frase pa' tu vida</li>
       <li>"meme" -{'>'} Meme</li>
       <li>"video" -{'>'} Te enseña un video bien perrón</li>
       <li>"carta_+la fecha que comiste enfrijoladas(En formato YYYY-MM-DD)_+tu comida fav" -{'>'} <br />
@@ -23,6 +24,29 @@ const Term = (props = {}) => {
   const handleType = (terminalInput) => {
     if (terminalInput === 'hola') {
       setTerminalLineData([<TerminalOutput>🎉 🥳 Wooolas Nini, Espero tengas un muy muy Feliz cumpleaños!!  🎊 🎁 🎂
+        <br />
+        <br />
+        <br />
+      Recuerda que escribiendo "clear" te muestra lo que puedes hacer
+        <br />
+        <br />
+      </TerminalOutput>])
+    } else if (terminalInput === 'frase'){
+      setTerminalLineData([<TerminalOutput> 
+        <br />
+        <br />
+
+        Te envío un café ☕️ cargado de felicidad 🥳. 
+        <br />
+        Ya que la felicidad 🥳 es ligera silenciosa y llena de paz 💆🏻‍♀️💆🏼.
+        <br />
+        Deja que se pose en ti. Feliz día 🌈🌤 y un gran abrazo.
+        <br />
+        "La felicidad que se vive deriva del amor que se da".
+        <br />
+        - Isabel Allende
+        <br />
+        <br />
         <br />
         <br />
         <br />
@@ -246,6 +270,7 @@ const Term = (props = {}) => {
         <ul>
       <li>"hola" -{'>'} Te saluda</li>
       <li>"chisme" -{'>'} Te cuenta un chisme</li>
+      <li>"frase" -{'>'} Frase pa' tu vida</li>
       <li>"meme" -{'>'} Meme</li>
       <li>"video" -{'>'} Te enseña un video bien perrón</li>
       <li>"carta_+la fecha que comiste enfrijoladas(En formato YYYY-MM-DD)_+tu comida fav" -{'>'} <br />
