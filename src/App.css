@@ -221,6 +221,17 @@ body {
   padding: 3% 0;
   display: flex;
 }
+.link_descarga {
+  border: dashed 5px #4af2a1;
+  background-color: #ff9300;
+  color: white;
+  border-radius: 5px;
+  width: 50%;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
 
 @media (max-width: 960px) {
   .terminal_container {

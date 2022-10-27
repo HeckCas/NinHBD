@@ -195,6 +195,28 @@ const Term = (props = {}) => {
         <br />
         <br />
         <br />
+        Pd4. Me tienes que decir la palabra clave "pandas" para saber que lograste decifrar la contraseña y leiste bien tu carta :) jaja
+        <br />
+        <br />
+        <br />
+        Quería hacer esto como de retos y así, pero por tiempo no pude, disculpame 
+        <br />
+        pero si te dejo tarea :) tienes que correr el siguiente código y hacer 
+        <br />
+        un wordcloud de las palabras más usadas en tu carta de cumpleaños
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <a href="./hbd.zip" download className='link_descarga'> Descarga el zip de archivos, aquí</a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
       Recuerda que escribiendo "clear" te muestra lo que puedes hacer
         <br />
